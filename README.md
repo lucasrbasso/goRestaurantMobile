@@ -19,10 +19,17 @@ This project was developed by the following technologies:
  - [JSON Server](https://www.npmjs.com/package/json-server)
 
 **To work**:
+You can follow React Native tutorial:
+
+- [Tutorial](https://reactnative.dev/docs/getting-started)
 
 ```console
 console@bar:/GitHub/goRestaurant:~$ yarn
 console@bar:/GitHub/goRestaurant:~$ yarn start
+
+In Another terminal: 
+
+console@bar:/GitHub/goRestaurant:~$ yarn android `or` yarn ios
 ```
 
 And for backend:
