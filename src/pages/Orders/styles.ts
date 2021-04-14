@@ -1,13 +1,21 @@
 import styled from 'styled-components/native';
 import { FlatList } from 'react-native';
 
-interface Product {
+interface Food {
   id: number;
   name: string;
+  quantity: number;
   description: string;
   price: number;
   formattedPrice: string;
   thumbnail_url: string;
+}
+
+interface Product {
+  id: number;
+  food: Food;
+  price: number;
+  formattedPrice: string;
 }
 
 export const Container = styled.View`
