@@ -103,7 +103,7 @@ export const FoodContent = styled.View`
 `;
 
 export const FoodTitle = styled.Text`
-  font-family: 'Poppins-Regular';
+  font-family: 'Poppins-Medium';
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -114,7 +114,7 @@ export const FoodDescription = styled.Text`
   font-family: 'Poppins-Regular';
   font-style: normal;
   font-weight: normal;
-  font-size: 10px;
+  font-size: 13px;
   line-height: 16px;
   margin-top: 6px;
   color: #3d3d4d;
